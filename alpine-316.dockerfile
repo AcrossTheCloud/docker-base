@@ -18,4 +18,4 @@ RUN apk update && \
   rm -rf /var/cache/apk/*
 
 ENV MUSL_LOCPATH /usr/share/i18n/locales/musl
-ENV LC_ALL=en_US.UTF-8
+ENV LC_ALL=en_AU.UTF-8
